@@ -45,9 +45,9 @@ The corrected evaluation archive contains the RDF versions, fixtures, frozen exp
 
 - **[Technical replication sources in LexO-server](https://github.com/andreabellandi/LexO-server/tree/77d2c3e93b96a4ac0a4f2e6f98f9c40e781079ad/evaluation/dsh2027)** — fixtures, queries, test cases, and execution scripts. The archived run output includes additional recorded evidence that is not part of the source tree.
 - **[Software revision used for the experiment](https://github.com/andreabellandi/LexO-server/commit/77d2c3e93b96a4ac0a4f2e6f98f9c40e781079ad)** — implementation provenance.
-- **[Evaluation package and audit results](./evaluation/)** — this directory is reserved for the original, unmodified run archive. The associated file hash should be checked before relying on a downloaded copy.
+- **[Evaluation records and archive information](./evaluation/)** — the four summary reports are already browseable here. The original corrected-run ZIP is still pending upload to the same directory; its SHA-256 is `fc03584abb2086ec7a28943d72b0e44c4b25f26c6fb51f3cd2924a804d166683`.
 
-For technical replication, begin with `evaluation/README.md` and `docs/HANDOFF.md` **inside the corrected evaluation ZIP**, not with the HTML page. The website is an explanatory view over an already recorded run: clicking a scenario **does not execute a test or contact LexO-server**.
+Once the complete archive has been uploaded, for technical replication begin with `evaluation/README.md` and `docs/HANDOFF.md` **inside the corrected evaluation ZIP**, not with the HTML page. The website is an explanatory view over an already recorded run: clicking a scenario **does not execute a test or contact LexO-server**.
 
 ## Scope and limitations
 
