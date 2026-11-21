@@ -1,0 +1,48 @@
+{
+  "run_id" : "dsh2027-corrected-20261121-77d2c3e",
+  "timestamp_utc" : "2026-11-21T14:03:55.851821797Z",
+  "mode" : "all",
+  "commit_sha" : "77d2c3e93b96a4ac0a4f2e6f98f9c40e781079ad",
+  "worktree_dirty" : false,
+  "software_revision" : "77d2c3e93b96a4ac0a4f2e6f98f9c40e781079ad",
+  "git_branch" : "codex/dsh2027-corrections",
+  "graphdb_version" : "10.8.14",
+  "java_version" : "17.0.20.1",
+  "maven_version" : "3.9.16",
+  "tomcat_version" : "9.0.121",
+  "application_java_target" : "8",
+  "rdf4j_version" : "3.7.6",
+  "identity_assurance" : "DECLARED",
+  "oracle_sha256" : "8f65dc4b0e825298fde6b2b9ad86d280818dbe2e7aa6cd7d8c460d0aa1883d87",
+  "test_counts" : {
+    "PASSED" : 12,
+    "FAILED" : 0,
+    "BLOCKED" : 0,
+    "NOT_RUN" : 0
+  },
+  "counterexamples_executed" : 3,
+  "competency_questions_exact" : 7,
+  "t09_components" : {
+    "T09-L0" : "PASSED",
+    "T09-GraphDB" : "PASSED",
+    "overall_T09" : "PASSED",
+    "rollback_digest_equal" : true,
+    "ordinary_success_http" : 201
+  },
+  "default_graph_empty" : true,
+  "graph_scope" : "https://lexo.ilc.cnr.it/graphs/lexical/lexica/it",
+  "sanitized_configuration" : {
+    "base_url" : "http://lexo:8080/LexO-server/service",
+    "repository" : "http://graphdb:7200/repositories/LexOLexica",
+    "managed_publication" : true,
+    "graphdb_host_port_published" : false
+  },
+  "container_images" : {
+    "graphdb" : "ontotext/graphdb:10.8.14",
+    "graphdb_id" : "sha256:506096f8b30c44994d457551f668fa1283596cfc7098bdb915f9b6b708ec2f44",
+    "lexo" : "lexo-dsh2027:local",
+    "lexo_id" : "sha256:3a2c12782fb7b96853408dc0b2336e580bda8dd92771155d19710e175242b0fc",
+    "evaluator" : "maven:3.9.16-eclipse-temurin-17",
+    "evaluator_id" : "sha256:1a352420f7aba21f5ad08df31bab55f74c013fb491f1ae8ab1dd7ff9ed698584"
+  }
+}
