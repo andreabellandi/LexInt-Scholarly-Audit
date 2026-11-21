@@ -1,0 +1,4 @@
+counterexample_id,shacl_result,publication_integrity_result,missing_count,unexpected_count,detected_at,oracle_match,notes
+"CE1-retained-ratio","CONFORMS","FAIL","0","1","2026-11-21T14:03:52.286261378Z","true","Observed exactly as frozen"
+"CE2-missing-haraz","CONFORMS","FAIL","1","0","2026-11-21T14:03:54.085251796Z","true","Observed exactly as frozen"
+"CE3-materialised-sense","CONFORMS","FAIL","0","1","2026-11-21T14:03:55.818247588Z","true","Observed exactly as frozen"
