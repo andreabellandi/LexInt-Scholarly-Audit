@@ -1,0 +1,8 @@
+cq_id,expected_rows,observed_rows,matched_rows,missing_rows,unexpected_rows,completeness,precision,status,evidence_path,query_path
+"CQ1","2","2","2","0","0","1.000000","1.000000","EXACT","queries/cq01-results.json","queries/cq01.rq"
+"CQ2","2","2","2","0","0","1.000000","1.000000","EXACT","queries/cq02-results.json","queries/cq02.rq"
+"CQ3","2","2","2","0","0","1.000000","1.000000","EXACT","queries/cq03-results.json","queries/cq03.rq"
+"CQ4","2","2","2","0","0","1.000000","1.000000","EXACT","queries/cq04-results.json","queries/cq04.rq"
+"CQ5","6","6","6","0","0","1.000000","1.000000","EXACT","queries/cq05-results.json","queries/cq05.rq"
+"CQ6","1","1","1","0","0","1.000000","1.000000","EXACT","queries/cq06-results.json","queries/cq06.rq"
+"CQ7","3","3","3","0","0","1.000000","1.000000","EXACT","queries/cq07-results.json","queries/cq07.rq"
